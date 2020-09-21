@@ -1,0 +1,9 @@
+C:\Users\Laptop\Desktop\FAX\Treca godina\Drugi semestar\Programski prevodioci\Programski prevodioci\seminarski\KlasePodataka\bin\Debug\netstandard2.0\KlasePodataka.deps.json
+C:\Users\Laptop\Desktop\FAX\Treca godina\Drugi semestar\Programski prevodioci\Programski prevodioci\seminarski\KlasePodataka\bin\Debug\netstandard2.0\KlasePodataka.dll
+C:\Users\Laptop\Desktop\FAX\Treca godina\Drugi semestar\Programski prevodioci\Programski prevodioci\seminarski\KlasePodataka\obj\Debug\netstandard2.0\KlasePodataka.csprojAssemblyReference.cache
+C:\Users\Laptop\Desktop\FAX\Treca godina\Drugi semestar\Programski prevodioci\Programski prevodioci\seminarski\KlasePodataka\obj\Debug\netstandard2.0\KlasePodataka.AssemblyInfoInputs.cache
+C:\Users\Laptop\Desktop\FAX\Treca godina\Drugi semestar\Programski prevodioci\Programski prevodioci\seminarski\KlasePodataka\obj\Debug\netstandard2.0\KlasePodataka.AssemblyInfo.cs
+C:\Users\Laptop\Desktop\FAX\Treca godina\Drugi semestar\Programski prevodioci\Programski prevodioci\seminarski\KlasePodataka\bin\Debug\netstandard2.0\KlasePodataka.pdb
+C:\Users\Laptop\Desktop\FAX\Treca godina\Drugi semestar\Programski prevodioci\Programski prevodioci\seminarski\KlasePodataka\obj\Debug\netstandard2.0\KlasePodataka.csproj.CoreCompileInputs.cache
+C:\Users\Laptop\Desktop\FAX\Treca godina\Drugi semestar\Programski prevodioci\Programski prevodioci\seminarski\KlasePodataka\obj\Debug\netstandard2.0\KlasePodataka.dll
+C:\Users\Laptop\Desktop\FAX\Treca godina\Drugi semestar\Programski prevodioci\Programski prevodioci\seminarski\KlasePodataka\obj\Debug\netstandard2.0\KlasePodataka.pdb
