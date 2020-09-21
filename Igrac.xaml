@@ -1,0 +1,51 @@
+﻿<Window x:Class="Kudovi.Igrac"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kudovi"
+        mc:Ignorable="d"
+        Title="Igraci" Height="450" Width="800">
+    <Grid Background="#FF212121">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="31*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Ime" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" Grid.Column="1" Foreground="White" FontWeight="Bold"/>
+        <Label Content="Prezime" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Grid.Column="1" Foreground="White" FontWeight="Bold"/>
+        <Label Content="Godina rodjenja" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top" Grid.Column="1" Foreground="White" FontWeight="Bold"/>
+        <Label Content="Grupa" HorizontalAlignment="Left" Margin="10,116,0,0" VerticalAlignment="Top" Grid.Column="1" Foreground="White" FontWeight="Bold"/>
+        <Label Content="Kud" HorizontalAlignment="Left" Margin="10,142,0,0" VerticalAlignment="Top" Grid.Column="1" Foreground="White" FontWeight="Bold"/>
+
+        <TextBox x:Name="txtIgracId" HorizontalAlignment="Left" Height="23" Margin="150,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+        <TextBox x:Name="txtIme" HorizontalAlignment="Left" Height="23" Margin="115,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Foreground="White" Background="#FF343434" BorderThickness="0"/>
+        <TextBox x:Name="txtPrezime" HorizontalAlignment="Left" Height="23" Margin="115,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Foreground="White" Background="#FF343434" BorderThickness="0"/>
+        <TextBox x:Name="txtGodRodj" HorizontalAlignment="Left" Height="23" Margin="115,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Foreground="White" Background="#FF343434" BorderThickness="0"/>
+        <TextBox x:Name="txtGrupa" HorizontalAlignment="Left" Height="23" Margin="115,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Foreground="White" Background="#FF343434" BorderThickness="0"/>
+
+        <Button x:Name="btnDodaj" Content="Dodaj" HorizontalAlignment="Left" Margin="12,187,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="BtnDodaj_Click" Grid.Column="1" BorderThickness="0" Background="#FF4CAF50" Foreground="White" FontWeight="Bold"/>
+        <Button x:Name="btnIzmeni" Content="Izmeni" HorizontalAlignment="Left" Margin="135,187,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="BtnIzmeni_Click" Grid.Column="1" Background="#FF4CAF50" Foreground="White" BorderThickness="0" FontWeight="Bold"/>
+        <Button x:Name="btnObrisi" Content="Obriši" HorizontalAlignment="Left" Margin="260,187,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="BtnObrisi_Click" Grid.Column="1" Background="#FF4CAF50" Foreground="White" BorderThickness="0" FontWeight="Bold"/>
+
+        <DataGrid x:Name="DataGridIgrac" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="133" Margin="12,257,0,0" VerticalAlignment="Top" Width="635" SelectionChanged="DataGridIgrac_SelectionChanged" Grid.Column="1" Background="#FF343434" Foreground="White" OpacityMask="Black" BorderThickness="0" RowBackground="#FF343434" HorizontalGridLinesBrush="#FF515151" VerticalGridLinesBrush="#FF515151" HeadersVisibility="None">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding ID}" Header="IgracID" Width="*"/>
+                <DataGridTextColumn Binding="{Binding Ime}" Header="Ime" Width="*"/>
+                <DataGridTextColumn Binding="{Binding Prezime}" Header="Prezime" Width="*"/>
+                <DataGridTextColumn Binding="{Binding GodRodj}" Header="Godina rodjenja" Width="*"/>
+                <DataGridTextColumn Binding="{Binding Grupa}" Header="Grupa" Width="*"/>
+                <DataGridTextColumn Binding="{Binding Kud}" Header="Kud" Width="*"/>
+
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <ComboBox x:Name="IgracComboBox"  Grid.Column="1" HorizontalAlignment="Left" Margin="115,145,0,0" VerticalAlignment="Top" Width="120" Height="23" SelectionChanged="ComboBox_SelectionChanged" Foreground="Black" Background="#FF343434" BorderBrush="#FFC7C7C7" BorderThickness="0"/>
+        <Label Content="IgracID" Grid.Column="1" HorizontalAlignment="Left" Margin="12,226,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Ime" Grid.Column="1" HorizontalAlignment="Left" Margin="118,226,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Prezime" Grid.Column="1" HorizontalAlignment="Left" Margin="224,226,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Godina rodjenja" Grid.Column="1" HorizontalAlignment="Left" Margin="330,226,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Grupa" Grid.Column="1" HorizontalAlignment="Left" Margin="435,226,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Kud" Grid.Column="1" HorizontalAlignment="Left" Margin="541,226,0,0" VerticalAlignment="Top" Foreground="White"/>
+
+    </Grid>
+</Window>
