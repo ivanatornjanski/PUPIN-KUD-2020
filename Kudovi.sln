@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kudovi", "Kudovi.csproj", "{A5F1C128-C5FD-4694-9709-7FEC3096B7B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KlasePodataka", "..\..\..\Programski prevodioci\Programski prevodioci\seminarski\KlasePodataka\KlasePodataka.csproj", "{B4CCF40F-6A39-4F10-B50B-180B1E61A05D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5F1C128-C5FD-4694-9709-7FEC3096B7B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F1C128-C5FD-4694-9709-7FEC3096B7B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F1C128-C5FD-4694-9709-7FEC3096B7B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F1C128-C5FD-4694-9709-7FEC3096B7B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4CCF40F-6A39-4F10-B50B-180B1E61A05D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CCF40F-6A39-4F10-B50B-180B1E61A05D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CCF40F-6A39-4F10-B50B-180B1E61A05D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CCF40F-6A39-4F10-B50B-180B1E61A05D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC64BDD8-924A-460E-B8FE-9EC465EFEC7C}
+	EndGlobalSection
+EndGlobal
