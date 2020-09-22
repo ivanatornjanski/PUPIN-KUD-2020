@@ -32,7 +32,7 @@ namespace KlasePodataka
             komanda.Connection = konekcija;
             SqlDataAdapter dataAdapter = new SqlDataAdapter(komanda);
             DataTable dataTable = new DataTable("Kud");
-            dataAdapter.Fill(dataTable);
+            dataAdapter.Fill(dataTable); 
 
             return dataTable;
 
