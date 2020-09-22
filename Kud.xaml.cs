@@ -31,7 +31,7 @@ namespace Kudovi
             prikaziKudove();
         }
 
-        private void prikaziKudove()
+        private void prikaziKudove() 
         {
             SqlConnection konekcija = sqlUtils.kreirajKonekciju();
             String upit = "SELECT * FROM [KUD]";
