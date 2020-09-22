@@ -31,7 +31,7 @@ namespace Kudovi
             sqlUtils = new SQL(ConfigurationManager.ConnectionStrings["connKudovi"].ConnectionString);
             prikaziKudove();
             prikaziIgrace();
-        }
+        } 
 
         private void prikaziKudove()
         {
